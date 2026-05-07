@@ -1,0 +1,20 @@
+# Marp build output — regenerate with `marp slides.md`
+*.html
+*.pdf
+*.pptx
+
+# Keep README preview images, which live under assets/
+!assets/*.png
+!assets/*.jpg
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Node (only if you install Marp via npm locally)
+node_modules/
+package-lock.json

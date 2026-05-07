@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="Placeholder figure showing the cream canvas, coral accent rule, and ink text used by this theme.">
+  <rect width="720" height="360" fill="#FAF9F5"/>
+  <rect x="0" y="0" width="6" height="360" fill="#CC785C"/>
+  <g font-family="Fraunces, Georgia, serif" fill="#1F1B16">
+    <text x="48" y="120" font-size="38" font-weight="500">Your figure here</text>
+  </g>
+  <g font-family="Inter, system-ui, sans-serif" fill="#3D3929">
+    <text x="48" y="170" font-size="20">Replace assets/placeholder.svg with your own diagram or photo.</text>
+    <text x="48" y="200" font-size="20">PNG, JPG, and SVG all work. Capped at 380px tall by the theme.</text>
+  </g>
+  <g font-family="Inter, system-ui, sans-serif" fill="#6B6557">
+    <text x="48" y="312" font-size="16" font-style="italic">Caption — describe what the figure shows. Always provide alt text.</text>
+  </g>
+  <line x1="48" y1="240" x2="672" y2="240" stroke="#DAD5C5" stroke-width="1"/>
+</svg>

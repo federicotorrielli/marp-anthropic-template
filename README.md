@@ -21,27 +21,14 @@ figures, utility classes) is demonstrated there.
 
 ## Prerequisites
 
-- **Marp CLI** — `npm install -g @marp-team/marp-cli`. See [other
+- **Marp CLI**: `npm install -g @marp-team/marp-cli`. See [other
   install options](https://github.com/marp-team/marp-cli#install).
-- **VS Code** — the [Marp for VS
+- **VS Code**: the [Marp for VS
   Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
   extension gives a live preview and command-palette exports.
 
 PDF and PPTX export need a Chromium-based browser, picked up
 automatically on most platforms.
-
-## Project layout
-
-```
-.
-├── slides.md          # the deck and the theme — edit this
-├── assets/
-│   ├── placeholder.svg    # example figure used by slides.md
-│   └── preview-*.png      # README screenshots
-├── README.md
-├── LICENSE            # EUPL-1.2
-└── .gitignore         # excludes built HTML/PDF/PPTX output
-```
 
 ## Building
 
@@ -102,8 +89,8 @@ Add your own with a `section.<name> { … }` rule in the style block.
 
 ### Utility classes
 
-- `<span class="small">` — 18 px muted text for asides and footnotes.
-- `<span class="cite">` — 16 px italic muted text for citations.
+- `<span class="small">`: 18 px muted text for asides and footnotes.
+- `<span class="cite">`: 16 px italic muted text for citations.
 - `<p class="small">…</p>` under a figure for a caption.
 
 ### Math
@@ -111,40 +98,11 @@ Add your own with a `section.<name> { … }` rule in the style block.
 KaTeX is enabled by default. Set `math: mathjax` in the frontmatter to
 switch.
 
-## Accessibility
-
-- **Contrast.** Default ink-on-cream (`#1F1B16` on `#F0EEE6`) clears
-  WCAG AAA; coral accents (`#BD5D3A` on `#F0EEE6`) clear AA at the
-  default 24 px body size and every heading size. Re-check with
-  [WebAIM](https://webaim.org/resources/contrastchecker/) if you change
-  colours.
-- **Type scale.** Body 24 px, headings 22–56 px. Keep body text ≥ 20 px.
-- **Alt text.** Write meaningful alt text for every figure; the theme
-  cannot do it for you.
-- **Heading hierarchy.** `h1`/`h2`/`h3` are styled distinctly — use them
-  in order, don't skip levels.
-- **Page numbers.** `paginate: true` on by default.
-- **Screen readers.** For audiences that may include screen-reader
-  users, export to HTML and test with VoiceOver, NVDA, or Orca. Caption
-  and transcribe any embedded media.
-
 ## Gallery
 
 | Section divider | Code slide | Tables |
 |---|---|---|
 | ![Section-divider slide on a near-black background with the heading "Section divider" in cream and a coral underline rule.](assets/preview-divider.png) | ![Slide titled "Code" showing a Python snippet inside a soft cream code block with a hairline border.](assets/preview-code.png) | ![Slide titled "Tables" showing a five-row reference table with coral-underlined headers and soft row separators.](assets/preview-table.png) |
-
-## Credits
-
-- Theme inspiration: the typography and palette of Anthropic's public
-  materials. **Not affiliated with, endorsed by, or sponsored by
-  Anthropic PBC.** "Claude" and "Anthropic" are trademarks of Anthropic
-  PBC.
-- Built on [Marp](https://marp.app) and [Marpit](https://marpit.marp.app).
-- Fonts: [Fraunces](https://fonts.google.com/specimen/Fraunces),
-  [Inter](https://fonts.google.com/specimen/Inter),
-  [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono) —
-  SIL Open Font License.
 
 ## License
 
